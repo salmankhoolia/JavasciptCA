@@ -11,6 +11,8 @@ Constants
 
 // TODO: Get the id from the query parameter
 
+// TODO: Create a new URL with the id @example: https://www.youtube.com/shorts/ps7EkRaRMzs
+
 /*
 ============================================
 DOM manipulation
