@@ -104,3 +104,15 @@ If all validation passes, add a message above the form indicating the form passe
 ### Time
 
 1 Week
+
+### Course Assignment outcomes
+
+For course outcomes the student must demostrat the following understanding;
+
+- Can fetch data from an API
+- Can loop over an array of objects
+- Can dynamically update HTML using an array and object
+- Can use regex
+- Can write asynchonous code
+- Can handle errors from an API
+- CAn manpilate the DOM and handle events
