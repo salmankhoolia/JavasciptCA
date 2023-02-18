@@ -47,7 +47,6 @@ All of these todo's must be done to pass the asssignment.
   - [ ] Name ascending order
   - [ ] Name descending order
 - [ ] Confirmation modal after custumer submits a successful contact form.
-- [ ] End-user experiences a complete custom UI design
 - [ ] End-user can auto-fill the contact form using the browser auto-fill.
 - [ ] End-user can auto-fill the contact form using a password manager.
 - [ ] Validation still works when End-user uses copy and pastes into input fields.
@@ -58,6 +57,27 @@ All of these todo's must be done to pass the asssignment.
 - [ ] End-user can view a custom favicon.
 - [ ] CSS uses variables
 - [ ] Code is dry - There are no repeating functions, variables.
+- [ ] My commit messages are relavant and make sense. [How to write good commit messages](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
+- [ ] [End-user experiences a complete custom UI design.](https://www.figma.com/file/KExTTAE75DRhq2xTvapFR4/FED-Whiteboard?node-id=0%3A1&t=UItKehGgT8gRlibY-1)
+
+  - [ ] Is user-friendly
+  - [ ] Effective use of the pillars of design
+    - [ ] Typography
+    - [ ] COlour
+    - [ ] Composition
+    - [ ] Art Direction
+    - [ ] Motion
+  - [ ] Adhered to principles of design
+    - [ ] Contrast
+    - [ ] Balance and alignment
+    - [ ] Emphasis
+    - [ ] Proportion
+    - [ ] Hiearchy
+    - [ ] Repetition
+    - [ ] Ryhthem
+    - [ ] Pattern
+    - [ ] Negative space
+    - [ ] Movement
 
 ## Checklist
 
@@ -90,6 +110,7 @@ Make sure you go through this checklist before submitting your project to Moodle
 - [ ] There are no error messages in the terminal when I run the project.
 - [ ] My code is indented correctly.
 - [ ] I've checked my report for grammer & spelling using grammerly or chatGPT
+- [ ] I've used used [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [ ] I've checked off every todo in this README.
 
 ## Help & Tutorials
@@ -108,5 +129,5 @@ Make sure you go through this checklist before submitting your project to Moodle
 
 ## Authors
 
-_YOURE_NAME_ (@_your_github_username_)
-Monde Sineke (@S3ak)
+- _YOURE_NAME_ (@_your_github_username_)
+- Monde Sineke (@S3ak)
