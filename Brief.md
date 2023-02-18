@@ -94,6 +94,7 @@ If all validation passes, add a message above the form indicating the form passe
 - copying and sharing of any code will result in your assignment being given a mark of zero.
 - You may only use plain JavaScript for this assignment, no JS libraries or JS frameworks. You will be given a mark of zero if you use a library or framework for your JavaScript code. You may use CSS libraries such as font-awesome and animate.css
 - You may not use the RAWG game API.
+- You may use AI to help you design. [see Midjourney](https://midjourney.com/home/?callbackUrl=%2Fapp%2F)
 
 ### Submission
 
