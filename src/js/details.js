@@ -20,7 +20,7 @@ DOM manipulation
 ============================================
 */
 
-// TODO: Fetch and Render the lsit to the DOM
+// TODO: Fetch and Render the list to the DOM
 
 // TODO: Create event listeners for the filters and the search
 
