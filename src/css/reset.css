@@ -58,3 +58,20 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+input {
+  outline-offset: 1px;
+}
+
+:where(:not(:active):focus-visible) {
+  outline-offset: 1px;
+}
+
+@media (--motionOK) {
+  :where(:focus-visible) {
+    transition: outline-offset 145ms var(--ease-2);
+  }
+  :where(:not(:active):focus-visible) {
+    transition-duration: 0.25s;
+  }
+}
