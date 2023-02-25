@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="_REPLACE_WITH_DESCRIPTION_" />
-    <meta
-      name="keywords"
-      content="HTML, CSS, JavaScript, _REPLACE_WITH_KEYWORD_"
-    />
-    <meta name="author" content="_YOUR_NAME_" />
-    <link rel="stylesheet" href="/style.css" />
-    <!-- TODO: Import Javascript -->
-    <title>_REPLACE_WITH_OBJECT_TITLE | _REPLACE_SITE_NAME</title>
-  </head>
-  <body class="animate__animated animate__fadeIn">
-    <header class="l-header">
-      <h1><span id="js-h1">_REPLACE_WITH_OBJECT_TITLE</span>Details</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./main.js"></script>
+    <title>Album Of the year: details</title>
+</head>
+<body class="page_details">
+    <header>
+        <h1><a href="/">Album of the year: 2022</a></h1>
     </header>
 
-    <main class="l-main">
-      <article>
-        <!-- TODO: Insert loading indicator and replace with object detail properties -->
-      </article>
-    </main>
+    <div class="wrapper">
+        <section class="grid_container tracks_container">
+            <section id="track_list"></section>
+        </section>
+        <div id="error_message"></div>
+    </div>
+    <div id="loading-message" class="hidden">
+        <p>Loading...</p>
+        <div class="spinner"></div>
+    </div>
 
-    <footer class="l-footer">
-      <small>Created with ❤️ by _REPLACE_</small>
-    </footer>
-  </body>
+</body>
 </html>
