@@ -1,15 +1,9 @@
-// url to deezer api
 const deezer_api_url = "https://api.deezer.com";
-
-// https://www.deezer.com/us/album/264266592
 const album_of_the_year_id = "264266592";
-
-
-const cors_proxy = "http://cors-anywhere.herokuapp.com/";
 
 const fetchAlbum = async (id) => {
   const album_url = `${deezer_api_url}/album/${id}`;
-  const response = await fetch(cors_proxy + album_url);
+  const response = await fetch(album_url);
   const album_data = await response.json();
 
   if (album_data.error) {
@@ -20,7 +14,7 @@ const fetchAlbum = async (id) => {
 };
 
 const fetchTracks = async (tracklist_url) => {
-  const response = await fetch(cors_proxy + tracklist_url);
+  const response = await fetch(tracklist_url);
   const tracklist_data = await response.json();
 
   if (tracklist_data.error) {
@@ -43,7 +37,7 @@ const displayAlbumHTML = (album_element, album_data) => {
                 <p>${nb_tracks} tracks</p>
                 <p class="view_tracks"><a href="details.html?url=${tracklist}" >View Tracklist</a></p>
             </aside>
-            <div className="content">
+            <div class="content">
                 <figure>
                     <img src="${cover_big}" alt="${title}">
                 </figure>
@@ -107,7 +101,6 @@ const convertDuration = (duration) => {
 
 const app = async () => {
   const loadingMessage = document.getElementById("loading-message");
-  // Show the loading message
   loadingMessage.classList.remove("hidden");
 
   if (isDetailsPage()) {

@@ -10,6 +10,8 @@
   body {
     position: relative;
     min-height: 100vh;
+    align-items: center;
+    background-color: red;
   }
 
   img {
@@ -97,4 +99,9 @@
   dl.track_details {
     display: flex;
     justify-content: space-between;
+  }
+
+
+  #track_list ul {
+    grid-template-columns: repeat(10, 1fr);
   }
